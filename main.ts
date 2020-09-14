@@ -1,5 +1,5 @@
 basic.forever(function () {
-    if (338 < input.compassHeading() || input.compassHeading() < 22) {
+    if (338 <= input.compassHeading() || input.compassHeading() < 23) {
         basic.showLeds(`
             . . # . .
             . # # # .
@@ -7,7 +7,7 @@ basic.forever(function () {
             . . # . .
             . . # . .
             `)
-    } else if (23 < input.compassHeading() && input.compassHeading() < 67) {
+    } else if (23 <= input.compassHeading() && input.compassHeading() < 67) {
         basic.showLeds(`
             # # # # .
             # # . . .
@@ -15,7 +15,7 @@ basic.forever(function () {
             # . . # .
             . . . . #
             `)
-    } else if (68 < input.compassHeading() && input.compassHeading() < 112) {
+    } else if (67 <= input.compassHeading() && input.compassHeading() < 113) {
         basic.showLeds(`
             . . # . .
             . # . . .
@@ -23,7 +23,7 @@ basic.forever(function () {
             . # . . .
             . . # . .
             `)
-    } else if (113 < input.compassHeading() && input.compassHeading() < 157) {
+    } else if (112 <= input.compassHeading() && input.compassHeading() < 158) {
         basic.showLeds(`
             . . . . #
             # . . # .
@@ -31,7 +31,7 @@ basic.forever(function () {
             # # . . .
             # # # # .
             `)
-    } else if (158 < input.compassHeading() && input.compassHeading() < 202) {
+    } else if (158 <= input.compassHeading() && input.compassHeading() < 203) {
         basic.showLeds(`
             . . # . .
             . . # . .
@@ -39,7 +39,7 @@ basic.forever(function () {
             . # # # .
             . . # . .
             `)
-    } else if (203 < input.compassHeading() && input.compassHeading() < 247) {
+    } else if (203 <= input.compassHeading() && input.compassHeading() < 248) {
         basic.showLeds(`
             # . . . .
             . # . . #
@@ -47,7 +47,7 @@ basic.forever(function () {
             . . . # #
             . # # # #
             `)
-    } else if (248 < input.compassHeading() && input.compassHeading() < 292) {
+    } else if (248 <= input.compassHeading() && input.compassHeading() < 292) {
         basic.showLeds(`
             . . # . .
             . . . # .
@@ -64,5 +64,4 @@ basic.forever(function () {
             # . . . .
             `)
     }
-    basic.pause(500)
 })
